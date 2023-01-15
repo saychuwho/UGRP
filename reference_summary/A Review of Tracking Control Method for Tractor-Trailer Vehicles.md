@@ -3,11 +3,13 @@
 [PDF](3548608.3559323.pdf)
 
 ## ABSTRACT
-- 요약 : <br>
-- 모르는 단어 
+- 요약 : <br> 현재 진행되는 tractor-trailer truck에 대한 research를 summarise하고, tracking control method들을 분류한 후, 각각의 방법들의 advantage와 disadvantage를 정리했다. 그와 동시에, 존재하는 문제들과 추후 연구 방향을 정리했다.
+
+## KEYWORDS 
+tractor-trailer vehicles, tracking control method (control a system to track a reference trajectory)
 
 ## 1 INTRODUCTION
-- 요약 : <br>
+- 요약 : <br> 
 - 모르는 단어
 
 ## 2 RESEARCH STATUS OF TRACTOR-TRAILER VEHICLES
