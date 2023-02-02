@@ -21,3 +21,12 @@ DRIVE Sim comes "out-of-the-box" with a set of sample environments as well as a 
 May i know other than the Drive Sim, what other industry that Nvidia has already has the project / product ready for use , like the "out of the box" you mentioned, for example for railway industry?
 
 DRIVE Sim is an application built on the NVIDIA Omniverse simulation platform. DRIVE Sim is specifically aimed at Autonomous Vehicle simulation, but there are many other applications based on Omniverse. One example is ISAAC Sim which is dedicated to simulation of robotic applications. We have also developed a car configurator based on Omniverse. So far, there is no dedicated railway/train simulator available, but customers like Deutsche Bahn have used Omniverse to create Digital Twins of railways, passengers and run simulations. See: https://www.youtube.com/watch?v=9FHzanjkd9k
+
+What makes Omniverse better at simulating physically (from standpoint of view of physics as science) accurate environments?
+
+NVIDIA Omniverse enables simulation powered by NVIDIA PhysX SDK. To learn more go here: https://docs.omniverse.nvidia.com/prod_extensions/prod_extensions/ext_physics.html
+
+For connected vehicle or manufacturing use cases what is the right mix of centralized edge, or in-vehicle compute required to handle the workflows?
+
+The reality is that likely all are needed. With Connected Vehicle data, for example with warranty and recall use cases temporal data is used. Compute hardware can be used at the centralized edge (on prem or cloud). In addition there will be warranty/recall use cases that can use data directly in the vehicle. In the case of manufacturing work flows, compute can be located directly at inspection stations, end of line, or even a more central location depending on the factory enviroment or set up.
+
