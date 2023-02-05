@@ -52,4 +52,6 @@ problem statement ver.2
 ---
 
 정리해보면....
-- 
+- Problem Statement version 2
+- Related Work Summary
+- Approach Diagram
