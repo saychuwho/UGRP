@@ -8,7 +8,7 @@ Automated Driving, Scenario Generation, Assessment, Testing
 
 ## Abstract
 
-- 요약 : <br> *this paper presents a survey through different approaches and methods for scenario generation and evaluation for testing and validation of ADS(automated driving systems).* *the reader should get a thorough state of the art overview on scenario based verification and validation approaches of ADS.*
+- 요약 : <br> *this paper presents a survey through different approaches and methods for scenario generation and evaluation for testing and validation of ADS(automated driving systems).* <br> *the reader should get a thorough state of the art overview on scenario based verification and validation approaches of ADS.*
 - 모르는 단어 :
   -  exponetial : 기하급수적으로 
   -  thorough : detailed and careful
