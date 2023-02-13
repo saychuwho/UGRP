@@ -84,5 +84,14 @@ Critical Scenario, Automated Driving, Systematic Mapping Study
 ## 4 Overview Of the Taxonomy
 
 - 읽으면서 생각 정리
+  - taxonomy for critical scenarios identificaion approaches <br> ![figure10](../image/finding_critical_scenarios_figure10.png)
   - 
 - 모르는 단어 
+  - surrogate : replacing someone else or used instead of something else
+  - surrogate measure : A surrogate measure, also known as an indirect measure or proxy measure, is a substitute or stand-in for a primary measure that is difficult or impossible to directly observe or quantify. Surrogate measures are used to infer the value or presence of the primary measure, based on the relationship between the surrogate measure and the primary measure.
+  
+## 9 Discussion
+
+- 읽으면서 생각 정리
+  - 
+- 모르는 단어
