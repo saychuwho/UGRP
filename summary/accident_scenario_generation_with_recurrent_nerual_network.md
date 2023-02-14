@@ -1,5 +1,7 @@
 # Accident Scenario Generation with Recurrent Neural Network
+
 [pdf](../reference_summary/Accident_Scenario_Generation_with_Recurrent_Neural_Networks.pdf)
+
 ## Abstract
 
 - 요약
@@ -9,3 +11,8 @@
   - 생성된 시나리오들은 exclusive test set에서 일어난 사고와 닮았다는 사실에서 확인된다.
 - 모르는 단어
   - temporal : relating to practical matters or physical things, rather than spiritual ones
+
+## Introduction
+
+- 내용정리
+- 모르는 단어

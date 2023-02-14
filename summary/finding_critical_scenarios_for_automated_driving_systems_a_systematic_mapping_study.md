@@ -4,6 +4,8 @@
 
 doi : 10.1109/TSE.2022.3170122
 
+[다른 공유사항](finding_critical_scenario_공유할만한거.md)
+
 ## Index terms 
 
 Critical Scenario, Automated Driving, Systematic Mapping Study

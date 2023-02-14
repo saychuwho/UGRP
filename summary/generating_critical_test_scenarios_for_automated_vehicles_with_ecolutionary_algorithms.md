@@ -8,6 +8,7 @@
   - evolutionary algorithm을 이용해 highly nonlinear optimization problem을 다룬다.
   - 이전 우리의 접근과는 다르게, 우리는 이제 복잡한 상황을 다룰 수 있다. 
   - 처음에는 critical하지 않은 시나리오에서 critical한 시나리오를 만들어내는 접근법을 demonstrate한다.
+
 - 모르는 단어
   - feasible : able to be made, done, or achieved.
   - solution space : the "solution space" refers to the set of all possible solutions to a given problem. In the context of autonomous vehicles, the solution space could refer to the set of all possible vehicle behaviors or decisions that could be taken in response to a given set of driving conditions or scenarios. (chatGPT)
