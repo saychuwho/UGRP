@@ -15,4 +15,10 @@
 ## Introduction
 
 - 내용정리
+  - 자율주행 자동차들의 발전을 방해하는 요소 중 하나는 자율주행 자동차가 증가되는 안전 요소들을 만족시키는 것인가이다.
+  - 
 - 모르는 단어
+  - deliver : (다른 의미) to fulfill or carry out a promise, obligation, or commitment.
+  - prevalent : adjective that is used to describe something that is widespread, common, or generally accepted or practiced. / 만연한
+  - feasibility : the possibility that can be made, done, or achieved, or is reasonable
+
