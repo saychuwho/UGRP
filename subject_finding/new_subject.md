@@ -21,17 +21,29 @@
     - Police Report 논문과 같이 시나리오를 생성하는 방법 중에는 기존 데이터를 바탕으로 시나리오를 생성하는 방법이 있다. 
     - 기존 데이터를 바탕으로 만들 시에는 기존 데이터가 생성된 나라에 맞는 시나리오가 생성될 것이다. 이런 시나리오들을 이용한 검증은 우리나라의 도로상황에 안맞을 수도 있다.
     - 다른 나라에서 생성된 시나리오 데이터셋이 우리나라 도로교통 법규에 맞는지 확인하는 절차 또한 필요하다.
-  - PROBLEM STATEMENT : 자율주행 자동차에게 우리나라 도로교통 법규에 맞춘 시나리오가 필요하다.
-  - 연구방법 : 
+    - 위의 어린이 보호구역 또한 다른 나라에 유사한 정책이 있을지라도 세부적인 법 적용은 우리나라 만의 정책이기 때문에 자율주행 자동차가 이에 적응하지 못 할수도 있다. 
+  - PROBLEM STATEMENT : 자율주행 자동차 알고리즘을 테스트하는 시나리오 중 우리나라 도로교통 법규에 맞춘 시나리오가 필요하다.
+  - 연구방법 :
     - 우리나라 도로교통 법규 중 다른 나라들과 다른 법규를 찾은 후, 이 법규가 적용되는 상황을 시나리오를 구성하는 요소들로 분리한다. 
-      - 기존 데이터에서 요소를 분류해 새로운 시나리오를 만들어내는 논문이 있다. >> 찾아서 링크 연결
-    - 그리고 이 요소들을 이용해 시나리오를 구성한다. 이때, 교통법규를 가장 잘 드러내는 요소들을 찾아내고 강조하는 것이 중요하다. 
-    - 앞서 강조된 요소들은 다른 곳에서 만든 시나리오들이 우리나라 교통법규에 적합한지를 평가하는데 하나의 기준이 될 수 있다. 
+      - 기존 데이터에서 요소를 분류해 새로운 시나리오를 만들어내는 논문이 있다. >> [관련 논문](../reference_summary/Generation_of_Modular_and_Measurable_Validation_Scenarios_for_Autonomous_Vehicles_Using_Accident_Data.pdf)
+    - 그리고 이 요소들을 이용해 시나리오를 구성한다. 
+      - 이때, 교통법규를 가장 잘 드러내는 요소들을 찾아내고 강조하는 것이 중요하다. 
+      - 또는 뒤에서 이야기되겠지만, 교통법규의 구성요소들을 수학적으로 모델링할 수도 있다.
+      - 앞서 강조된 요소들은 다른 곳에서 만든 시나리오들이 우리나라 교통법규에 적합한지를 평가하는데 하나의 기준이 될 수 있다.
+    - 시나리오가 만들어지면 이를 가상환경에서 구현하고 자율주행 알고리즘이 평가를 받을 수 있는 환경을 만들어 볼 수 있다.
+      - 이는 이전 회의에서 지속적으로 이야기했던 부분이다. 
+      - 다만 나는 시나리오를 이용해 이 체계를 만드는 구체적인 이유와 문제를 좀 더 붙인 거 같다.
   - 이전에는 이런 연구가 없었는가?
     - 찾아봐야 할 것들이다.
   - 과연 우리나라 교통 법규 증 특이한 것이 시나리오를 새로 평가해야 할 만큼의 이유가 있을까.
-    - 찾아봐야 한다.
+    - police report 논문 마지막에 추후 연구되어야 할 분야에서 "공식 교통 규정은 자동으로 검증 가능한 수식으로 형식화 될 수 있으며, 이는 더 많고 더 나은 테스트 오라클을 제공합니다."라고 제안했다.
+      - 여기서 "oracle"은 다음과 같은 의미이다. : In the context of software testing, an oracle is a mechanism or principle used to determine whether a software system or its component behaves correctly or not. (chatGPT)
+      - 이와 연관지어보면, 우리나라의 공식 교통 법규가 검증 가능한 수식으로 만들어지면, 자율주행 자동차 알고리즘을 테스트 하기 위한 더 많은 오라클이 생성된다고 볼 수 있다.
+      - 이 주제는 특이한 우리나라의 법규를 검증 가능한 수식에서 더 나아가, 테스트할 수 있는 시나리오 데이터셋으로 만든다는 점에서 의미를 둘 수 있다.
+      - 이 논문에서 이 주제와 관련된 논문을 인용했다. <br> Rizaldi, A., and Althoff, M. Formalising Traffic Rules for Accountability of Autonomous Vehicles. In Proceedings of the IEEE International Conference on Intelligent Transportation Systems (2015) [PDF](../reference_summary/Formalising_Traffic_Rules_for_Accountability_of_Autonomous_Vehicles.pdf)
 
 ## 이와 관련된 논문들 읽고 정리하는 공간
 
-- police report : 
+- police report : [PDF](../reference_summary_other_people/generating_effective_test_cases_for_self_driving_cars_from_police_reports.pdf) [SUMMARY](../summary/SUMMARY_generating_effective_test_cases_for_self_driving_cars_from_police_reports.md)
+- 사고 시나리오로부터 구성요소들을 정의 및 분리 후 새로운 시나리오를 만들어내는 방법론 [PDF](../reference_summary/Generation_of_Modular_and_Measurable_Validation_Scenarios_for_Autonomous_Vehicles_Using_Accident_Data.pdf) [SUMMARY](../summary/Generation_of_modular_and_measurable_validation_scenarios_of_autonomous_vehicles_using_accident_data.md)
+- 교통 법규를 자율주행 자동차에 적용시키고자 하는 논문 : [PDF](../reference_summary/Formalising_Traffic_Rules_for_Accountability_of_Autonomous_Vehicles.pdf) 
