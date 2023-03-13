@@ -33,8 +33,9 @@
     - 시나리오가 만들어지면 이를 가상환경에서 구현하고 자율주행 알고리즘이 평가를 받을 수 있는 환경을 만들어 볼 수 있다.
       - 이는 이전 회의에서 지속적으로 이야기했던 부분이다. 
       - 다만 나는 시나리오를 이용해 이 체계를 만드는 구체적인 이유와 문제를 좀 더 붙인 거 같다.
-  - 이전에는 이런 연구가 없었는가?
-    - 찾아봐야 할 것들이다.
+  - 이전에는 이런 연구가 없었는가? (우리나라 연구 사례들)
+    - 현재 많은 혼란을 주고 있는 우회전 규정을 알고리즘 순서도로 구조화한 연구 : [PDF](../reference_summary/자율주행_시스템을_위한_우회전_구조화에_관한_연구.pdf)
+    - 자율주행 운전 능력 평가 시스템의 개발 방향과 내용을 제시한 논문 : [PDF](../reference_summary/Development_Direction_of_Autonomous_Vehicle_Driving_Ability_Evaluation_System_based_on_Virtual_Environment.pdf)
   - 과연 우리나라 교통 법규 증 특이한 것이 시나리오를 새로 평가해야 할 만큼의 이유가 있을까.
     - police report 논문 마지막에 추후 연구되어야 할 분야에서 "공식 교통 규정은 자동으로 검증 가능한 수식으로 형식화 될 수 있으며, 이는 더 많고 더 나은 테스트 오라클을 제공합니다."라고 제안했다.
       - 여기서 "oracle"은 다음과 같은 의미이다. : In the context of software testing, an oracle is a mechanism or principle used to determine whether a software system or its component behaves correctly or not. (chatGPT)
@@ -46,4 +47,6 @@
 
 - police report : [PDF](../reference_summary_other_people/generating_effective_test_cases_for_self_driving_cars_from_police_reports.pdf) [SUMMARY](../summary/SUMMARY_generating_effective_test_cases_for_self_driving_cars_from_police_reports.md)
 - 사고 시나리오로부터 구성요소들을 정의 및 분리 후 새로운 시나리오를 만들어내는 방법론 [PDF](../reference_summary/Generation_of_Modular_and_Measurable_Validation_Scenarios_for_Autonomous_Vehicles_Using_Accident_Data.pdf) [SUMMARY](../summary/Generation_of_modular_and_measurable_validation_scenarios_of_autonomous_vehicles_using_accident_data.md)
-- 교통 법규를 자율주행 자동차에 적용시키고자 하는 논문 : [PDF](../reference_summary/Formalising_Traffic_Rules_for_Accountability_of_Autonomous_Vehicles.pdf) 
+- 교통 법규를 자율주행 자동차에 적용시키고자 하는 논문 : [PDF](../reference_summary/Formalising_Traffic_Rules_for_Accountability_of_Autonomous_Vehicles.pdf) [SUMMARY](../summary/SUMMARY_Formalising_Traffic_Rules_for_Accountability_of_Autonomous_Vehicles.md)
+- 현재 많은 혼란을 주고 있는 우회전 규정을 알고리즘 순서도로 구조화한 연구 : [PDF](../reference_summary/자율주행_시스템을_위한_우회전_구조화에_관한_연구.pdf) 
+- 자율주행 운전 능력 평가 시스템의 개발 방향과 내용을 제시한 논문 : [PDF](../reference_summary/Development_Direction_of_Autonomous_Vehicle_Driving_Ability_Evaluation_System_based_on_Virtual_Environment.pdf)
